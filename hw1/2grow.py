@@ -1,6 +1,7 @@
 import sys
 
-#word-finder by splitting lines
+#growing up - try to understand youself in relation to the world
+
 for line in sys.stdin:
 	line = line.strip()
 

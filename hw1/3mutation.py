@@ -1,7 +1,8 @@
 import sys
 import random
 
-#what is being born like?
+#mutations - cell replication, order and chaos coexist
+#code via AParrish - http://www.decontextualize.com/teaching/rwet/simple-models-of-text/
 for line in sys.stdin:
 	line = line.strip()
 	words = line.split(" ")
