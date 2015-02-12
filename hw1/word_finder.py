@@ -1,13 +1,10 @@
 import sys
 
-#all_lines = list()
-
 #find lines with the word "my" or "your"
 for line in sys.stdin:
 	line = line.strip()
-	#all_lines.append(line)
-	my = line.find("my")
-	your = line.find("your")
+	my = line.find("my ")
+	your = line.find("your ")
 
 	if my != -1: 
 		mywords = line.split(" ")  #returns a list
