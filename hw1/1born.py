@@ -1,7 +1,8 @@
 import sys
 import random
 
-#what is growing up like
+#coming into existence, all does not begin and end at this moment; 
+#not yet fully conscious, you pick up only snippets of your environment
 for line in sys.stdin:
 	line = line.strip()
 
